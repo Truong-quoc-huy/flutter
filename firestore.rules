@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "students": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
